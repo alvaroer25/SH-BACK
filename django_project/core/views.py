@@ -11,8 +11,8 @@ from mysql.connector import Error
 import json
 from core.models import img_enf,Enfermedad
 #from core.models import Enfermedad
-from Pdev.settings import P_SERVER,P_PORT,P_USER_SERVER,P_PASSWD_SERVER
-from Pdev.settings import ESQUEMA_BD
+from django_project.settings import P_SERVER,P_PORT,P_USER_SERVER,P_PASSWD_SERVER
+from django_project.settings import ESQUEMA_BD
 # Create your views here.
 def enfermedad(request):
 
