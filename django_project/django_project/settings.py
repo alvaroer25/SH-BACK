@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'bdsh',
         'USER': 'root',
         'PASSWORD': 'mysql',
-        'HOST': 'localhost',
+        'HOST': '178.128.156.238',
         'PORT': '3306',
     }
 }
