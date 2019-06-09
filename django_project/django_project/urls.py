@@ -18,7 +18,7 @@ from django.conf.urls import url
 from core import views
 
 urlpatterns = [
-    url('', views.enf_imagen, name="enf_imagen"),
+    url('', views.img_enf, name="img_enf"),
     url('about/', views.about, name="about"),
     url(r'^busqueda_enf/(?P<cod_enf>[0-9]+)$',views.Busqueda_img_prueba, name="Busqueda_img_prueba"),
     url('admin/', admin.site.urls),
